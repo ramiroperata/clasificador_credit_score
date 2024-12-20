@@ -4,7 +4,7 @@ Este proyecto analiza y predice puntajes de crédito utilizando una red neuronal
 
 ## Análisis de Datos
 
-Los datos se cargan desde un archivo CSV llamado `credit_score_cleaned.csv`. Se utilizan bibliotecas como `pandas`, `numpy`, `seaborn` y `matplotlib` para realizar el análisis exploratorio de datos (EDA).
+Se utilizan bibliotecas como `pandas`, `numpy`, `seaborn` y `matplotlib` para realizar el análisis exploratorio de datos (EDA).
 
 Los pasos principales del análisis incluyen:
 
@@ -86,7 +86,7 @@ El rendimiento del modelo se evalúa utilizando métricas como:
 
 ## Resultados
 
-El modelo consiguio una f1-score del 91%. Tambien tuvo un rendimiento muy bueno para identificar a los clientes de riesgo malo, con un recall del 95% para esta clase. Esto quiere decir que identifico correctamente al 95% de los clientes con un mal riesgo, permitiendonos evitarlos para mantener un buen perfil de riego. Con algunos cambios en la arquitectura sera muy facil consegui resultados aun mejores.
+El modelo consiguio una f1-score del 91%. Tambien tuvo un rendimiento muy bueno para identificar a los clientes de riesgo malo, con un recall del 95% para esta clase. Esto quiere decir que identifico correctamente al 95% de los clientes con un mal riesgo, permitiendonos evitarlos para mantener un buen perfil de riego. Con algunos cambios en la arquitectura, usando alguna un poco mas sofisticada, sera muy facil conseguir resultados aun mejores.
 
 ## Conclusion
 
